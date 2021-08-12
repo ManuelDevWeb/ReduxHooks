@@ -1,1 +1,21 @@
 1. Instalar: npm i redux react-redux
+
+2. Crear la carpeta: src/reducers
+
+3. Crear la carpeta: src/actions
+
+4. Crear la carpeta: src/types
+
+5. Crear el archivo: src/types/types.js
+
+6. Crear el action: src/actions/actions.js
+
+7. Crear el reducer: src/reducers/reducers.js
+
+/* RECORDAR CICLO DE VIDA */
+
+-> Componente recibe evento y emite una acción.
+-> El action ejecuta una función y guarda la información en el store.
+-> El store se comunica con el reducer, llevando la información del action.
+-> El reducer actualiza la información del state.
+-> El componente recibe un nuevo state del store.
