@@ -1,0 +1,1 @@
+1. Instalar: npm i redux react-redux
